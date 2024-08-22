@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('/assets/font/Kanit-Regular.ttf');
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+    background-color: #FDFDFD;
+}
+
+html {
+    scroll-behavior: smooth;
+}
